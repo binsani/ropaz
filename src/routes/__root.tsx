@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Royal Prime Academy Zaria (ROPAZ) — Excellence Through Education" },
+      { name: "description", content: "ROPAZ is a leading Creche, Nursery, Primary and Secondary school in Zaria, Kaduna State. 2026/2027 admissions now open." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Royal Prime Academy Zaria (ROPAZ) — Excellence Through Education" },
+      { property: "og:description", content: "ROPAZ is a leading Creche, Nursery, Primary and Secondary school in Zaria, Kaduna State. 2026/2027 admissions now open." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Royal Prime Academy Zaria (ROPAZ) — Excellence Through Education" },
+      { name: "twitter:description", content: "ROPAZ is a leading Creche, Nursery, Primary and Secondary school in Zaria, Kaduna State. 2026/2027 admissions now open." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e4d4b9c2-b35e-47e1-ad4c-ce84b0f23867/id-preview-87671e2e--b710ed30-652b-434c-b74e-c7e28183090d.lovable.app-1785063515353.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e4d4b9c2-b35e-47e1-ad4c-ce84b0f23867/id-preview-87671e2e--b710ed30-652b-434c-b74e-c7e28183090d.lovable.app-1785063515353.png" },
     ],
     links: [
       {

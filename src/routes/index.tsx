@@ -11,11 +11,11 @@ export const Route = createFileRoute("/")({
         content:
           "ROPAZ is a leading Creche, Nursery, Primary and Secondary school in Zaria, Kaduna State. 2026/2027 admissions now open.",
       },
-      { property: "og:title", content: "Royal Prime Academy Zaria (ROPAZ)" },
+      { property: "og:title", content: "Royal Prime Academy Zaria (ROPAZ) — Excellence Through Education" },
       {
         property: "og:description",
         content:
-          "Excellence Through Education. Creche, Nursery, Primary & Secondary in Zaria. 2026/2027 admissions in progress.",
+          "ROPAZ is a leading Creche, Nursery, Primary and Secondary school in Zaria, Kaduna State. 2026/2027 admissions now open.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
