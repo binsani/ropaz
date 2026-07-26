@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
 import heroStudent from "@/assets/hero-student.jpg";
 import crestAsset from "@/assets/ropaz-crest.asset.json";
 
@@ -86,12 +87,12 @@ function Index() {
               leaders through holistic education.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a
-                href="#admissions"
+              <Link
+                to="/apply"
                 className="px-8 py-4 bg-navy text-paper font-semibold rounded-sm shadow-xl shadow-navy/10 hover:-translate-y-0.5 transition-transform"
               >
                 Start Admission Process
-              </a>
+              </Link>
               <a
                 href="#programs"
                 className="px-8 py-4 border border-navy/20 font-semibold rounded-sm hover:bg-navy/5 transition-colors"
